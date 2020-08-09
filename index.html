@@ -13,32 +13,100 @@
         @import url(main1280.css);
       }
     </style>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
   </head>
   <body>
     <header id="header">
       <img src="" alt="" id="header-img" />
       <nav id="nav-bar">
-        <a href="#" class="nav-link"></a>
-        <a href="#" class="nav-link"></a>
-        <a href="#" class="nav-link"></a>
+        <a href="#packet_offers" class="nav-link">Packets Offers</a>
+        <a href="#register" class="nav-link">Sign up</a>
+        <a href="#information" class="nav-link">More Information</a>
+        <a href="#contact" class="nav-link">Contact us</a>
       </nav>
     </header>
     <main>
-      <video src="" id="video"></video>
-      <form action="" id="form">
-        <label for="email"></label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="example@direction.com"
-          required
-        />
-        <input type="submit" value="send" id="submit" />
-      </form>
+      <section id="packet_offers">
+        <div class="card">
+          <h2>Amsterdam</h2>
+          <p>Located in Holand</p>
+          <iframe
+            width="400"
+            height="220"
+            src="https://www.youtube.com/embed/cjJkr8Kn4A0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            id="video"
+            class="video_show"
+          ></iframe>
+        </div>
+
+        <div class="card">
+          <h2>Paris</h2>
+          <p>Located in France</p>
+          <iframe
+            width="400"
+            height="220"
+            src="https://www.youtube.com/embed/oz45k8EYblk"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video_show"
+          ></iframe>
+        </div>
+
+        <div class="card">
+          <h2>London</h2>
+          <p>Located in England</p>
+          <iframe
+            width="400"
+            height="220"
+            src="https://www.youtube.com/embed/Eznsu308OGQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video_show"
+          ></iframe>
+        </div>
+
+        <div class="card">
+          <h2>New York</h2>
+          <p>Located in EEUU</p>
+          <iframe
+            width="400"
+            height="220"
+            src="https://www.youtube.com/embed/yD-CPM02GF0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            class="video_show"
+          ></iframe>
+        </div>
+      </section>
+
+      <section id="information">
+        <h2>Information</h2>
+        <p>Put some additional information here</p>
+      </section>
+
+      <fieldset id="register">
+        <legend>Enter your email if you want to know more</legend>
+        <form action="" id="form">
+          <label for="email"></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@direction.com"
+            required
+          />
+          <input type="submit" value="send" id="submit" />
+        </form>
+      </fieldset>
     </main>
 
+    <footer id="contact"></footer>
     <script
       src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
       sameSite="Secure"
