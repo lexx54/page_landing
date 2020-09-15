@@ -5,31 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Page Landing</title>
     <style>
-      @import url(main.css);
-      @media screen and (min-width: 780px) {
-        @import url(main780.css);
-      }
+      @import url(css/normalize.css);
+      @import url(css/main.css);
+      @import url(css/main780.css) screen and (min-width: 780px);
       @media screen and (min-width: 1280px) {
-        @import url(main1280.css);
-      }
+        body {
+          background-color: black;
+        }
+      } ;
     </style>
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header id="header">
-      <img src="" alt="" id="header-img" />
+      <img src="images/logo.png" alt="" id="header-img" />
       <nav id="nav-bar">
-        <a href="#packet_offers" class="nav-link">Packets Offers</a>
-        <a href="#register" class="nav-link">Sign up</a>
+        <a href="#packet-title" class="nav-link">Packets Offers</a>
         <a href="#information" class="nav-link">More Information</a>
-        <a href="#contact" class="nav-link">Contact us</a>
+        <a href="#register" class="nav-link">Sign up</a>
+        <a href="#contact-container" class="nav-link">Contact us</a>
       </nav>
     </header>
     <main>
       <section id="packet_offers">
+        <div id="packet-title">
+          <h1>Paquetes</h1>
+        </div>
         <div class="card">
           <h2>Amsterdam</h2>
           <p>Located in Holand</p>
+          <p>
+            Amsterdam is the capital and largest city in the European country of
+            the Netherlands. Amsterdam is famous for its canals and dikes.
+            Unlike most other countries, the national government is not in
+            Amsterdam, but in The Hague.
+          </p>
           <iframe
             width="400"
             height="220"
@@ -45,6 +58,10 @@
         <div class="card">
           <h2>Paris</h2>
           <p>Located in France</p>
+          <p>
+            Paris is also the center of French economy, politics, traffic and
+            culture. Paris has many art museums and historical buildings.
+          </p>
           <iframe
             width="400"
             height="220"
@@ -59,6 +76,11 @@
         <div class="card">
           <h2>London</h2>
           <p>Located in England</p>
+          <p>
+            London is one of the world's most important cities for business,
+            finance and politics. It is also important for culture, media,
+            entertainment, fashion and art.
+          </p>
           <iframe
             width="400"
             height="220"
@@ -73,6 +95,13 @@
         <div class="card">
           <h2>New York</h2>
           <p>Located in EEUU</p>
+          <p>
+            It is the financial capital of the US since it is home to the
+            nation's stock market, Wall Street, and the One World Trade Center.
+            A leading global city; New York exerts culture, media and capital
+            internationally, as well as attracting great numbers of
+            international travelers.
+          </p>
           <iframe
             width="400"
             height="220"
@@ -86,27 +115,63 @@
       </section>
 
       <section id="information">
-        <h2>Information</h2>
-        <p>Put some additional information here</p>
+        <div id="information-title">
+          <h2>Information</h2>
+        </div>
+        <div id="information-content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            commodi, sapiente soluta ex animi quas voluptates odit esse est
+            voluptatem, quis delectus corporis facilis in possimus quasi, veniam
+            laudantium consectetur!
+          </p>
+        </div>
       </section>
-
-      <fieldset id="register">
-        <legend>Enter your email if you want to know more</legend>
-        <form action="" id="form">
-          <label for="email"></label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="example@direction.com"
-            required
-          />
-          <input type="submit" value="send" id="submit" />
-        </form>
-      </fieldset>
+      <section id="register-container">
+        <div id="register-title">
+          <h2>Register</h2>
+        </div>
+        <div id="register-content">
+          <fieldset id="register">
+            <legend>Enter your email if you want to know more</legend>
+            <form action="" id="form">
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@direction.com"
+                required
+              />
+              <input type="submit" value="send" id="submit" />
+            </form>
+          </fieldset>
+          <img src="images/register.jpg" alt="" />
+        </div>
+      </section>
     </main>
 
-    <footer id="contact"></footer>
+    <footer id="contact-container">
+      <div>
+        <p>Contac Us</p>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <a href="#"><i class="bx bxl-twitter"></i>Twitter</a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-instagram-alt"></i>Instagram</a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bx-code-curly"></i>Portfolio</a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-github"></i>GitHub</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
     <script
       src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
       sameSite="Secure"
