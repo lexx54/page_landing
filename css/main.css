@@ -5,15 +5,40 @@ html {
 a {
   text-decoration: none;
 }
+a:visited {
+  color: black;
+}
 li {
   list-style-type: none;
 }
 body {
-  background-color: #e0dbff;
+  background-color: #fff8dc;
 }
 /*----------Global end---------*/
 
 /*----------header start----------*/
+#header {
+  display: flex;
+  height: 15vh;
+  background-color: #ffe476;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+}
+#header > img {
+  width: 25%;
+  border-radius: 50%;
+}
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+.nav-link:active {
+  border-bottom: 4px solid #dbeeff;
+  color: #5d0909;
+}
 
 /*----------header end----------*/
 
