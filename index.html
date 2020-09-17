@@ -17,13 +17,43 @@
           margin-right: 0.5em;
         }
         /*----------header end----------*/
+
+        /*----------main start----------*/
+        #packet-content {
+          display: flex;
+          flex-wrap: wrap;
+        }
+        .card {
+          margin: 2%;
+          max-width: 40%;
+        }
+        /*----------main end----------*/
       }
       @media screen and (min-width: 1020px) {
         /*----------header start----------*/
+        #header > img {
+          max-width: 200px;
+        }
         .nav-link {
           margin-right: 2em;
         }
         /*----------header End----------*/
+
+        /*----------main start----------*/
+        .card {
+          margin: 1%;
+          max-width: 27%;
+        }
+        #info-re {
+          display: flex;
+        }
+        #information {
+          flex: 0 1 50%;
+        }
+        #register-container {
+          flex: 1 1 auto;
+        }
+        /*----------main end----------*/
 
         /*----------footer start----------*/
         #contact-content {
@@ -63,10 +93,10 @@
         </div>
         <div id="packet-content">
           <div class="card">
-            <div class="cardTitle">
+            <div class="card-title">
               <h2>Amsterdam</h2>
             </div>
-            <div class="cardContent">
+            <div class="card-content">
               <p>Located in Holand</p>
               <p>
                 Amsterdam is the capital and largest city in the European
@@ -88,10 +118,10 @@
           </div>
 
           <div class="card">
-            <div class="cardTitle">
+            <div class="card-title">
               <h2>Paris</h2>
             </div>
-            <div class="cardContent">
+            <div class="card-content">
               <p>Located in France</p>
               <p>
                 Paris is also the center of French economy, politics, traffic
@@ -111,10 +141,10 @@
           </div>
 
           <div class="card">
-            <div class="cardTitle">
+            <div class="card-title">
               <h2>London</h2>
             </div>
-            <div class="cardContent">
+            <div class="card-content">
               <p>Located in England</p>
               <p>
                 London is one of the world's most important cities for business,
@@ -134,10 +164,10 @@
           </div>
 
           <div class="card">
-            <div class="cardTitle">
+            <div class="card-title">
               <h2>New York</h2>
             </div>
-            <div class="cardContent">
+            <div class="card-content">
               <p>Located in EEUU</p>
               <p>
                 It is the financial capital of the US since it is home to the

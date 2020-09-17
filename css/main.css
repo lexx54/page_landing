@@ -27,7 +27,7 @@ body {
   z-index: 2;
 }
 #header > img {
-  width: 25%;
+  max-width: 20%;
   border-radius: 50%;
 }
 #nav-bar {
@@ -56,32 +56,53 @@ body {
   text-align: center;
   font-size: 2.5em;
 }
-
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #dbeeff;
+  border-radius: 25px;
+  padding: 1em;
+  margin: 7%;
+}
+.card-title {
+  font-size: 2em;
+  text-align: center;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.video_show {
+  max-width: 100%;
+}
 #information-title {
   height: 25vh;
   border: 1px solid black; /* just to check the area*/
   background: url(../images/info.jpg);
   color: #ffdd54;
 }
-#information-title > h2 {
-  position: relative;
-  top: 55%;
-  text-align: center;
-  font-size: 2.5em;
-}
-
-#register-title {
-  height: 25vh;
-  border: 1px solid black;
-  background: url("../images/register.jpg") center;
-  color: #ffdd54;
-}
+#information-title > h2,
 #register-title > h2 {
   position: relative;
   top: 55%;
   text-align: center;
   font-size: 2.5em;
 }
+#register-title {
+  height: 25vh;
+  border: 1px solid black;
+  background: url("../images/register.jpg") center;
+  color: #ffdd54;
+}
+#information-content {
+  padding: 2em;
+}
+#register-content {
+  padding: 2em;
+}
+
 /*----------body end----------*/
 
 /*----------footer start----------*/
