@@ -14,94 +14,10 @@ body {
 /*----------Global end---------*/
 
 /*----------header start----------*/
-header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0px;
-  display: flex;
-  height: 15vh;
-  background-color: #fff8dc;
-  font-size: 1.5em;
-  justify-content: space-around;
-  align-items: center;
-}
-#header-img {
-  width: auto;
-  height: 95%;
-  border-radius: 25%;
-}
-#nav-bar {
-  display: flex;
-  flex-direction: column;
-}
 
 /*----------header end----------*/
 
 /*----------body start----------*/
-
-#packet-title {
-  text-align: center;
-  background-color: rgb(219, 226, 255);
-}
-#packet_offers {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-}
-.card {
-  display: flex;
-  flex-flow: column;
-  text-align: justify;
-  background-color: #fff8dc;
-  padding: 1em;
-  margin: 1em;
-  border-radius: 25px;
-}
-.card > h2 {
-  background-color: #fff8dc;
-  text-align: center;
-}
-.video_show {
-  margin-top: auto;
-  align-self: center;
-}
-
-#information {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  text-align: justify;
-  height: 30vh;
-}
-#information-title {
-  text-align: center;
-  background-color: #dbe2ff;
-}
-#information-content {
-  padding: 1em;
-}
-#register-container {
-  display: flex;
-  flex-direction: column;
-
-  padding: 0 auto;
-}
-#register-title {
-  text-align: center;
-  background-color: #dbe2ff;
-}
-#register-content {
-  display: flex;
-  justify-content: space-around;
-  padding: 1em;
-}
-#register-content img {
-  max-width: 50%;
-  border-radius: 20%;
-}
-#register-content fieldset {
-  align-self: center;
-}
 
 /*----------body end----------*/
 
