@@ -19,9 +19,25 @@
         /*----------header end----------*/
       }
       @media screen and (min-width: 1020px) {
+        /*----------header start----------*/
         .nav-link {
           margin-right: 2em;
         }
+        /*----------header End----------*/
+
+        /*----------footer start----------*/
+        #contact-content {
+          display: flex;
+          flex-direction: row;
+        }
+        #contact-content li {
+          align-self: center;
+        }
+        .fot-link {
+          margin-right: 0.5em;
+          font-size: 1.5em;
+        }
+        /*----------footer end----------*/
       }
     </style>
     <link
@@ -36,7 +52,7 @@
         <a href="#packet-title" class="nav-link">Packets Offers</a>
         <a href="#information" class="nav-link">More Information</a>
         <a href="#register" class="nav-link">Sign up</a>
-        <a href="#contact-container" class="nav-link">Contact us</a>
+        <a href="#contact" class="nav-link">Contact us</a>
       </nav>
     </header>
 
@@ -182,26 +198,28 @@
       </div>
     </main>
 
-    <footer id="contact-container">
-      <div id="contactTitle">
+    <footer id="contact">
+      <div id="contact-title">
         <p>Contact Us</p>
       </div>
-      <div id="contactContent">
-        <ul>
-          <li>
-            <a href="#"><i class="bx bxl-twitter"></i>Twitter</a>
-          </li>
-          <li>
-            <a href="#"><i class="bx bxl-instagram-alt"></i>Instagram</a>
-          </li>
-          <li>
-            <a href="#"><i class="bx bx-code-curly"></i>Portfolio</a>
-          </li>
-          <li>
-            <a href="#"><i class="bx bxl-github"></i>GitHub</a>
-          </li>
-        </ul>
-      </div>
+      <ul id="contact-content">
+        <li>
+          <a href="#" class="fot-link"><i class="bx bxl-twitter"></i>Twitter</a>
+        </li>
+        <li>
+          <a href="#" class="fot-link"
+            ><i class="bx bxl-instagram-alt"></i>Instagram</a
+          >
+        </li>
+        <li>
+          <a href="#" class="fot-link"
+            ><i class="bx bx-code-curly"></i>Portfolio</a
+          >
+        </li>
+        <li>
+          <a href="#" class="fot-link"><i class="bx bxl-github"></i>GitHub</a>
+        </li>
+      </ul>
     </footer>
     <script
       src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"

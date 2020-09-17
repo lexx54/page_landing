@@ -47,5 +47,23 @@ body {
 /*----------body end----------*/
 
 /*----------footer start----------*/
-
+#contact {
+  display: flex;
+  height: 15vh;
+  background-color: #ffe476;
+  justify-content: space-around;
+}
+#contact-title {
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.fot-link {
+  color: black;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+.fot-link:active {
+  border-bottom: 4px solid #dbeeff;
+  color: #5d0909;
+}
 /*----------footer end----------*/
