@@ -24,6 +24,7 @@ body {
   justify-content: space-around;
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 #header > img {
   width: 25%;
@@ -37,13 +38,50 @@ body {
 }
 .nav-link:active {
   border-bottom: 4px solid #dbeeff;
-  color: #5d0909;
+  color: #e0dbff;
 }
 
 /*----------header end----------*/
 
 /*----------body start----------*/
+#packet-title {
+  height: 25vh;
+  border: 1px solid black; /* just to check the area*/
+  background: url(../images/travel.jpg) 50% 95%;
+  color: #ffdd54;
+}
+#packet-title > h1 {
+  position: relative;
+  top: 55%;
+  text-align: center;
+  font-size: 2.5em;
+}
 
+#information-title {
+  height: 25vh;
+  border: 1px solid black; /* just to check the area*/
+  background: url(../images/info.jpg);
+  color: #ffdd54;
+}
+#information-title > h2 {
+  position: relative;
+  top: 55%;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#register-title {
+  height: 25vh;
+  border: 1px solid black;
+  background: url("../images/register.jpg") center;
+  color: #ffdd54;
+}
+#register-title > h2 {
+  position: relative;
+  top: 55%;
+  text-align: center;
+  font-size: 2.5em;
+}
 /*----------body end----------*/
 
 /*----------footer start----------*/
