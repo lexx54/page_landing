@@ -36,9 +36,13 @@ body {
   font-size: 1.4em;
   line-height: 1.3em;
 }
+.nav-link:hover {
+  background-color: #dbeeff;
+  border-radius: 40%;
+}
 .nav-link:active {
-  border-bottom: 4px solid #dbeeff;
-  color: #e0dbff;
+  border-bottom: 2px solid #5d0909;
+  color: #5d0909;
 }
 
 /*----------header end----------*/
@@ -121,8 +125,14 @@ body {
   font-size: 1.2em;
   line-height: 1.3em;
 }
+
+.fot-link:hover {
+  background-color: #dbeeff;
+  border-radius: 40%;
+}
+
 .fot-link:active {
-  border-bottom: 4px solid #dbeeff;
+  border-bottom: 2px solid #5d0909;
   color: #5d0909;
 }
 /*----------footer end----------*/
